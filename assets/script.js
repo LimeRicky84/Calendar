@@ -8,3 +8,10 @@ function timeDate() {
   }
 
   setInterval(timeDate, 1000);
+
+//   function to keep inputs saved after page reload
+
+
+
+
+//   function to color code the past, present and future

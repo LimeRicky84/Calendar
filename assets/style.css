@@ -19,6 +19,10 @@ textarea {
   color: black;
   border-radius: 0;
   border-bottom: 10px solid black;
+  border-left: 20px solid black;
+  border-right: 20px solid black;
+  border-top: 10px solid black;
+  
 }
 
 .description {
