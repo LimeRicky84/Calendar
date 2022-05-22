@@ -1,8 +1,8 @@
 // add current time in header
 var timeDisplayEl = $("#rightNow")
-var savedTask = document.querySelector("#timeBlock")
+var savedTask = document.querySelector("#timeBlock9", "#timeBlock10", "#timeBlock11", "#timeBlock12", "#timeBlock1", "#timeBlock2", "#timeBlock3", "#timeBlock4", "#timeBlock5")
 var taskList = document.querySelector("#timeBlock")
-var saveButton = document.querySelector("#save-button")
+var saveButton = document.querySelector("#save-button9", "#save-button10", "#save-button11", "#save-button12", "#save-button1", "#save-button2", "#save-button3", "#save-button4", "#save-button5")
 var clearButton = document.querySelector("#clear-button")
 
 var tasks = [];
@@ -39,13 +39,13 @@ function storeTasks() {
 saveButton.addEventListener("click", function(event) {
     event.preventDefault()
 
-    var taskText = savedTask.Value.trim()
+    var taskText = savedTask.value.trim();
     if (taskText === "") {
         return;
     }
 
     tasks.push(taskText)
-    savedTask.value = ""
+    // savedTask.value = ""
 
     storeTasks()
     renderTasks()
